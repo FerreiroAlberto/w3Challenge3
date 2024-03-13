@@ -41,8 +41,6 @@ export class Pet extends Component {
   }
 
   createTemplate() {
-    return `
-   <p></p>
-    `;
+    return `    `;
   }
 }
