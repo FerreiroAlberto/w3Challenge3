@@ -12,4 +12,8 @@ export class Component {
     targetElement.insertAdjacentHTML(position, this.template);
     this.element = targetElement.lastElementChild as HTMLElement;
   }
+
+  unRender() {
+    this.element.outerHTML = '';
+  }
 }

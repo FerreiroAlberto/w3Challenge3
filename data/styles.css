@@ -12,7 +12,19 @@ body {
 }
 
 main {
-  background-color: #fefae0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.input {
+  margin-inline: 20%;
 }
 
 header {
@@ -21,6 +33,7 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #d4a373;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer {
@@ -33,4 +46,16 @@ footer {
 
 main {
   flex: 10 0 auto;
+}
+
+ul {
+  margin: 2rem;
+  padding: 2rem;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #fefae0;
+
+  li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 }

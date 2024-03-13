@@ -3,13 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Greetings</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <meta name="description" content="Pet web with components" />
+    <title>PETS</title>
     <script type="module" src="./data/pets.ts"></script>
   </head>
   <body>
     <header></header>
     <main>
-      <div class="pets"></div>
+      <div class="cards"></div>
+      <div class="input">
+        <form id="add">
+          <label for="add"
+            >Añadir Mascota
+            <input type="text" placeholder="nombre" class="userName" />
+            <input type="text" placeholder="raza" class="userSpecies" />
+            <button type="submit">Añadir</button>
+          </label>
+        </form>
+        <p></p>
+      </div>
     </main>
     <footer></footer>
   </body>
