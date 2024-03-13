@@ -7,6 +7,6 @@ export class Header extends Component {
     this.render();
   }
   createTemplate() {
-    return ` <h1>Greetings</h1>`;
+    return ` <h1>Pet Component</h1>`;
   }
 }
